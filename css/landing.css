@@ -5,14 +5,22 @@ body{
 .navbar{
     display: flex;
     /* height: 40px; */
-    width: auto;
-    border: 1px solid black;
+    /* width: 100vw; */
+    /* border: 1px solid black; */
+    border-radius: 10px;
     padding: 10px;
     align-items: center;
     gap: 60vw;
-    background-color: #FAF9F6;
+    background-color: #faf9f6c6;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.436);
+    /* margin-top: 0; */
 
 }
+
+/* nav{
+    position: fixed;
+    z-index:10;
+} */
 
 #main_heading{
     font-size: 20px;
@@ -308,6 +316,126 @@ body{
     border-radius: 10px;
     margin: 10px;
     color: aliceblue;
+}
+
+.why-choose-us{
+    align-items: center;
+    justify-items: center;
+}
+
+.why-choose-us-head{
+    position: relative;
+    z-index: -2;
+}
+
+
+.why-choose-us-content{
+    height: 36rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 4px rgba(0, 0, 0, 0.08);
+    width: 80rem;
+    color: white;
+    background-image: url(/assets/images/blue-watercolor-leaf-background-aesthetic-winter-season_53876-128738.avif);
+    background-size:cover;
+    background-position: center;
+    position:relative;
+    z-index: -1;
+    
+}
+
+/* .why-choose-us-head{
+    height: 26rem;
+    width: 76rem;
+    padding-top: 10rem;
+    padding-left: 4rem;
+    background: linear-gradient(to right, #011d4a, #1F3F73, #f1f9ff);
+    filter: opacity(70%);
+    border-radius: 20px;
+    text-align: start;
+    } */
+    
+    .blur1{
+    height: 26rem;
+    width: 76rem;
+    padding-top: 10rem;
+    padding-left: 4rem;
+    background: linear-gradient(to right, rgba(1, 29, 74, 1), rgba(31, 63, 115, 0.7), rgba(241, 249, 255, 0.2));
+    border-radius: 20px;
+    text-align: start;
+    position: absolute;
+    inset: 0;
+        
+}
+
+#why-us{
+    color: #1F3F73;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#get-started-btn{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: black;
+    /* box-shadow: 1px 2px 4px 2px rgba(255, 255, 255, 0.158); */
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+
+}
+
+.texts-why-section{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.texts-why-section{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#why-us-heading{
+    font-size: 40px;
+}
+#why-us-heading span{
+    font-family: 'Caudex';
+    font-weight: lighter;
+    color: #F4F2EC;
+    font-size: 35px;
+}
+
+.card-1{
+    height: 300px;
+    width: 200px;
+    background: linear-gradient(to left, #f1f9ff6d, #1F3F73) ;
+    filter: opacity(40%);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.card-2{
+    height: 300px;
+    width: 200px;
+    background: linear-gradient(to left, #f1f9ff6d, #1F3F73) ;
+    filter: opacity(40%);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.card-3{
+    height: 300px;
+    width: 200px;
+    background: linear-gradient(to left, #f1f9ff6d, #1F3F73) ;
+    filter: opacity(40%);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.card-container{
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+    gap: 15px;
 }
 
 
