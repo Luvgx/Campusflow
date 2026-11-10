@@ -207,6 +207,111 @@ body{
 } */
 
 
+.how-it-works-head{
+    text-align: left;
+    grid-area: head-box;
+    font-size: 20px;
+}
+.how-it-works-head h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+#Process{
+    color: #1F3F73;
+}
+
+.how-it-works-head p{
+    color: #8A9399;
+    margin-top: 1px;
+}
+
+.parent-container{
+    display: grid;
+    grid-template-columns: 800px 600px;
+    grid-template-rows: 200px 400px;
+    grid-template-areas: 
+    "img-box head-box"
+    "img-box steps-box";
+    /* justify-content: center;
+    align-content: center; */
+    height: 600px;
+    width: 1200px;
+}
+
+.steps-container{
+    display: grid;
+    grid-template-columns: 600px;
+    grid-template-rows: 130px 130px 130px;
+
+
+    height: 390px;
+    width: 600px;
+
+    grid-area: steps-box;
+    
+    
+}
+
+
+.steps-container div p{
+    color: #8A9399;
+}
+
+.steps-visuals img{
+    grid-area: img-box;
+    height: 700px;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+    
+}
+.steps-visuals {
+    align-items: center;
+
+    
+}
+
+.step-01-head{
+    display: flex;
+    text-align: end;
+}
+.step-02-head{
+    display: flex;
+}
+.step-03-head{
+    display: flex;
+}
+
+.step-01-head span{
+    display: flex;
+    background-color: #1F3F73;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: aliceblue;
+}
+.step-02-head span{
+    display: flex;
+    background-color: #1F3F73;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: aliceblue;
+}
+.step-03-head span{
+    display: flex;
+    background-color: #1F3F73;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+
+
 
 
 
